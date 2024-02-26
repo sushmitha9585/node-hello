@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  my-node-app:
+    image: my-node-app
+    ports:
+      - "3000:3000"
+    # Add other configurations such as volumes, environment variables, etc. as needed
